@@ -77,3 +77,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 9. Deplyment:
 
 -   github actions pipeline deployment to vercel has been set up.
+
+10. Branching strategy:
+- recommended gitflow branching strategy should be used for development. 
+- Main branch should be protected and only pull requests can be merged into it.
