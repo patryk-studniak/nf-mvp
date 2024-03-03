@@ -1,6 +1,6 @@
 ## Running the app
 
-App preview available at: https://nf-mvp-test.vercel.app/
+App preview available at: [https://nf-mvp.vercel.app/](https://nf-mvp.vercel.app/)
 
 install dependencies:
 
