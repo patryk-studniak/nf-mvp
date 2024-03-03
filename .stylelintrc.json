@@ -1,0 +1,17 @@
+{
+    "extends": "stylelint-config-standard-scss",
+    "plugins": ["stylelint-scss"],
+    "rules": {
+        "no-invalid-position-at-import-rule": null,
+        "at-rule-no-unknown": null,
+        "scss/at-rule-no-unknown": true,
+        "color-hex-length": "long",
+        "selector-class-pattern": null,
+        "selector-pseudo-class-no-unknown": [
+            true,
+            {
+                "ignorePseudoClasses": ["local", "global"]
+            }
+        ]
+    }
+}

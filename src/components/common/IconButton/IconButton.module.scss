@@ -1,0 +1,17 @@
+@use "src/styles/mixins" as mixins;
+
+:local {
+  .iconButton {
+    @include mixins.commonBorderedItem;
+
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0 0.5rem;
+    padding: 0.6rem;
+
+    cursor: pointer;
+
+    display: flex;
+  }
+}

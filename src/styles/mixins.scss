@@ -1,0 +1,36 @@
+@use "src/styles/vars" as vars;
+
+@mixin gradientSeparator {
+  background: vars.$gradientBg;
+  height: 9px;
+  width: 100%;
+}
+
+@mixin buttonBorder {
+  border: solid 1px vars.$borderColor;
+}
+
+@mixin commonBorderedItem {
+  text-decoration: none;
+  color: vars.$buttonFontColor;
+  font-size: vars.$headerFontSize;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: vars.$letterSpacing;
+  background-color: vars.$buttonBgColor;
+  border: solid 1px vars.$borderColor;
+
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+
+  &.active {
+    background-color: vars.$buttonActiveBgColor;
+  }
+}
+
+@mixin gradientFont {
+  background: vars.$gradientBg;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

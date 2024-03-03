@@ -1,0 +1,9 @@
+@use "src/styles/vars" as vars;
+
+:local {
+  .heroSection {
+    position: relative;
+    width: 100%;
+    height: 60rem;
+  }
+}

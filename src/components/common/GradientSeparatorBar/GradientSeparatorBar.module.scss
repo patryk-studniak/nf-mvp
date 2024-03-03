@@ -1,0 +1,7 @@
+@use "src/styles/mixins" as mixins;
+
+:local {
+  .gradientBg {
+    @include mixins.gradientSeparator;
+  }
+}

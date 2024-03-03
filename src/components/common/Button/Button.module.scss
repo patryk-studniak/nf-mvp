@@ -1,0 +1,7 @@
+@use "src/styles/mixins" as mixins;
+
+:local {
+  .button {
+    @include mixins.commonBorderedItem;
+  }
+}

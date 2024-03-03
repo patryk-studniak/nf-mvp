@@ -1,0 +1,14 @@
+{
+    "pages": {
+        "Home": {
+            "badgeText": "Example Section",
+            "descriptionHtml": "Lorem <strong>ipsum dolor sit amet  consectetur adipiscing elit etiam molestie ex vel</strong> massa lacinia ultricies. Suspendisse lobortis vehicula eros, sed sodales eros mollis eget. Morbi vitae libero in nunc sodales.",
+            "links": [
+                {
+                    "text": "See more",
+                    "href": "/"
+                }
+            ]
+        }
+    }
+}

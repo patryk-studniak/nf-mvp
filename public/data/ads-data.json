@@ -1,0 +1,9 @@
+{
+    "ads": [
+        {
+            "id": 1,
+            "text": "NEW CUSTOMERS GET 15% OFF! USE CODE ",
+            "promoCode": "WELCOME15"
+        }
+    ]
+}

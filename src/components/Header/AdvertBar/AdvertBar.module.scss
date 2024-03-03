@@ -1,0 +1,27 @@
+@use "src/styles/vars" as vars;
+
+$advertBarHeight: 60px;
+$advertPromoCodeTextColor: #404f84;
+
+:local {
+  .advertBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: $advertBarHeight;
+    background-color: vars.$advertBarBgColor;
+
+    font-size: vars.$headerFontSize;
+    font-weight: 500;
+    letter-spacing: vars.$letterSpacing;
+
+    .advertText {
+      color: vars.$headerFontColor;
+    }
+
+    .advertPromoCodeText {
+      color: $advertPromoCodeTextColor;
+    }
+  }
+}

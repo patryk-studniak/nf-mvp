@@ -1,0 +1,15 @@
+@use "src/styles/vars" as vars;
+
+:local {
+  .link {
+    font-family: var(--font-inter);
+    font-size: vars.$sectionFontSize;
+    font-weight: 600;
+    letter-spacing: vars.$letterSpacing;
+    color: vars.$sectionLinkFontColor;
+
+    margin: 4rem 0 3rem 0;
+
+    text-transform: uppercase;
+  }
+}

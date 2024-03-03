@@ -1,0 +1,14 @@
+{
+    "title": "Lorem ipsum dolor sit amet",
+    "description": "Donec cursus ligula diam, nec congue augue ultrices nec.",
+    "playerInfo": {
+        "type": "video/mp4",
+        "url": "bg_video.mp4"
+    },
+    "buttons": [
+        {
+            "text": "Lorem Ipsum",
+            "url": "https://www.google.com"
+        }
+    ]
+}

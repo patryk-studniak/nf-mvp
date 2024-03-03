@@ -1,0 +1,36 @@
+{
+    "nav": [
+        {
+            "id": "home",
+            "title": "Home",
+            "href": "/"
+        },
+        {
+            "id": "about",
+            "title": "About",
+            "href": "/"
+        },
+        {
+            "id": "products",
+            "title": "Products",
+            "href": "/"
+        }
+    ],
+    "utilityButtons": [
+        {
+            "id": "cart",
+            "title": "Cart",
+            "icon": "Cart"
+        },
+        {
+            "id": "profile",
+            "title": "Profile",
+            "icon": "Profile"
+        },
+        {
+            "id": "search",
+            "title": "Search",
+            "icon": "Search"
+        }
+    ]
+}

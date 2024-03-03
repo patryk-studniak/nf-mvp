@@ -1,0 +1,20 @@
+@use "src/styles/vars" as vars;
+
+$footerContentFontSize: 11px;
+$footerContentLineHeight: 13px;
+
+:local {
+  .footerContentWrapper {
+    display: flex;
+    width: 50%;
+    padding: 1rem 0;
+  }
+
+  .footerContent {
+    font-family: var(--font-inter);
+    font-size: $footerContentFontSize;
+    color: vars.$footerFontColor;
+    letter-spacing: vars.$letterSpacing;
+    line-height: $footerContentLineHeight;
+  }
+}

@@ -1,0 +1,21 @@
+@use "src/styles/vars" as vars;
+@use "src/styles/mixins" as mixins;
+
+:local {
+  .sectionContent {
+    font-family: var(--font-exo);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: vars.$sectionMainFontColor;
+
+    margin: 0 10rem;
+
+    strong {
+      @include mixins.gradientFont;
+      font-weight: 600;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@use "src/styles/vars" as vars;
+
+$topNavHeight: 100px;
+
+:local {
+  .topNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: $topNavHeight;
+    background-color: vars.$backgroundWhite;
+    border: 1px solid vars.$borderColor;
+
+    .topNavSegment {
+      width: 33%;
+    }
+  }
+}
