@@ -1,6 +1,6 @@
 import { universalFetch } from '@/services/utils/fetch/universalFetch';
 import { HttpMethod } from '@/services/utils/fetch/model';
-import type { PlayerType } from '@/components/Player/Player';
+import type { PlayerType } from '@/components/common/Player/Player';
 
 export interface PlayerInfo {
     type: PlayerType;
