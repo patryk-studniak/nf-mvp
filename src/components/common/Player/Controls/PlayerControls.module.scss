@@ -22,7 +22,7 @@
     border: 1px solid vars.$borderColor;
 
     min-height: 100px;
-    width: 80%;
+    width: vars.$heroSectionContentWidth;
 
     .playPauseButton {
       width: 3rem;
