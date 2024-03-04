@@ -65,9 +65,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 6. Player:
 
 -   Video player is a custom implementation just for MVP and presentation purposes. For production development, it should be investigated and used a third-party library which is well tested and more reliable.
-- To not come up with too complex solutions for player controls, the timeline has been left as not fully functional.
-  In order to have it working, the team should to do research and find the most reliable solution that is already available on the market and implement it according to the project requirements.
-  Investigation could take more time and effort than it was expected for MVP.
+-   To not come up with too complex solutions for player controls, the timeline has been left as not fully functional.
+    In order to have it working, the team should to do research and find the most reliable solution that is already available on the market and implement it according to the project requirements.
+    Investigation could take more time and effort than it was expected for MVP.
 
 7. Testing:
 
@@ -82,5 +82,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 -   github actions pipeline deployment to vercel has been set up.
 
 10. Branching strategy:
-- recommended gitflow branching strategy should be used for development. 
-- Main branch should be protected and only pull requests can be merged into it.
+
+-   recommended gitflow branching strategy should be used for development.
+-   Main branch should be protected and only pull requests can be merged into it.

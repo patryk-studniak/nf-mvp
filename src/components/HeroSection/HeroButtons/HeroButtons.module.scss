@@ -1,0 +1,13 @@
+@use "src/styles/vars" as vars;
+
+:local {
+  .button {
+    font-family: var(--font-exo);
+    background-color: vars.$progressEmptyBg;
+    color: vars.$fontWhite;
+    border-radius: 12px;
+    margin: 0 0 4rem 0;
+    padding: 1rem 2rem;
+    cursor: pointer;
+  }
+}
